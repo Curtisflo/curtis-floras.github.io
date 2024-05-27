@@ -1,2 +1,7 @@
 title: Curtis Floras
 remote_theme: daviddarnes/alembic@main
+LinkedIn: "#0077B5"
+plugins:
+  - jekyll-paginate
+paginate: 5
+paginate_path: "/page:num/"
