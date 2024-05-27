@@ -3,5 +3,10 @@ remote_theme: daviddarnes/alembic@main
 LinkedIn: "#0077B5"
 plugins:
   - jekyll-paginate
+  - jekyll-titles-from-headings
 paginate: 5
 paginate_path: "/page:num/"
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true 

@@ -77,6 +77,8 @@ GEM
       jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-titles-from-headings (0.5.3)
+      jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -137,6 +139,7 @@ DEPENDENCIES
   jekyll-remote-theme (~> 0.3)
   jekyll-seo-tag (~> 2.6.1)
   jekyll-sitemap (~> 1.4.0)
+  jekyll-titles-from-headings
   jemoji (~> 0.12)
 
 BUNDLED WITH
