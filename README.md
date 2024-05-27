@@ -3,7 +3,9 @@
 I am a law student with a passion for coding and technology. Connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile).
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="https://www.linkedin.com/in/your-linkedin-profile" style="background-color: #0077B5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/your-linkedin-profile">
+    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+  </a>
 </div>
 
 # Projects
