@@ -1,3 +1,4 @@
+# Curtis Floras
 # About Me
 
 I am a law student with a passion for coding and technology. Connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile).
