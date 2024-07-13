@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0099ff 3px solid;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .about-me {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .linkedin-icon {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        .project-content {
+            flex: 1;
+        }
+        .project-gif {
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I am a law student with a passion for coding and technology. Connect with me on <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a>.</p>
+            <a href="https://www.linkedin.com/in/your-profile" target="_blank">
+                <img src="linkedin-icon.png" alt="LinkedIn" class="linkedin-icon">
+            </a>
+        </div>
+
+        <h2>My Projects</h2>
+        
+        <div class="project">
+            <div class="project-content">
+                <h3>McGill Guide 10th Edition Citation Maker</h3>
+                <p>A tool that automatically generates neutral citations for legal cases based on the McGill Guide 10th edition. It works directly with CanLII pages, simplifying the citation process for legal professionals and researchers.</p>
+                <p><strong>Technologies used:</strong> JavaScript, HTML, CSS</p>
+                <a href="https://github.com/yourusername/citation-maker" target="_blank">GitHub Link</a>
+            </div>
+            <img src="citation-maker.gif" alt="Citation Maker GIF" class="project-gif">
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>AutoBrief - Automated Case Briefing Tool</h3>
+                <p>AutoBrief is an innovative tool that automates the process of creating case briefs from legal documents. Users can upload a PDF of a written case decision, and the tool generates a comprehensive case brief along with citations for easy verification.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>PDF upload and processing</li>
+                    <li>Automated case brief generation</li>
+                    <li>Citation creation for verification</li>
+                </ul>
+                <p><strong>Technologies used:</strong> Python, Natural Language Processing, PDF processing libraries</p>
+                <a href="https://github.com/yourusername/autobrief" target="_blank">GitHub Link</a>
+            </div>
+            <img src="autobrief.gif" alt="AutoBrief GIF" class="project-gif">
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h3>AI Spaceship Battle Simulator</h3>
+                <p>An innovative spaceship game where AI players compete against each other. The AI is trained using an evolutionary algorithm-based Neural Architecture Search (NAS), demonstrating advanced AI and machine learning concepts in a gaming context.</p>
+                <p><strong>Key Features:</strong></p>
+                <ul>
+                    <li>AI vs AI gameplay</li>
+                    <li>Evolutionary algorithm for AI training</li>
+                    <li>Neural Architecture Search implementation</li>
+                    <li>Visualized space battles</li>
+                </ul>
+                <p><strong>Technologies used:</strong> Python, TensorFlow, Evolutionary Algorithms, Pygame</p>
+                <a href="https://github.com/yourusername/ai-spaceship-battle" target="_blank">GitHub Link</a>
+            </div>
+            <img src="spaceship-game.gif" alt="Spaceship Game GIF" class="project-gif">
+        </div>
+    </div>
+</body>
+</html>
